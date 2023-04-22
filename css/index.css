@@ -1,0 +1,107 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #555;
+}
+.footer{
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+.navbar{
+	position: fixed;
+	width: 100%;
+  z-index: 1;
+}
+.vision{
+  display: none;
+}
+ul {
+	list-style-type: none;
+	background-color: #333;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+
+}
+.learn{
+	
+	float: left;
+}
+li{
+	float: right;
+	
+}
+li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 16px;
+}
+li a:hover{
+	background-color: #111;
+}
+.active{
+	background-color: #111;
+}
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    /*-webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);*/
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    /*-webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);*/
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@media screen and (max-width: 500px){
+  .learn{
+    float: none;
+  }
+  li{
+    float: none;
+  }
+/*.navbar ul  .bar{
+    display: none;
+  }*/
+  .vision{
+    float: right;
+    display: block;
+
+  }
+  .bar{
+    display: none;
+  }
+}
