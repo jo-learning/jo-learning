@@ -7,7 +7,7 @@
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	padding: 10px;
 	margin-bottom: 20px;
-	background-color: #333;
+	background-color: lightgrey;
 }
 .h3{
 	padding-left: 150px;
@@ -38,16 +38,6 @@ h3 a:hover{
 	background-color: black;
 	color: white;
 }
-.dropdown{
-	position: absolute; 
-	display: none;
-}
-.ab h3{
-	padding-left: 150px;
-}
-.ab h3 a{
-	padding-left: 140px;
-}
 @media screen and (max-width: 500px){
 	.body{
 		margin-left: 10px;
@@ -57,16 +47,9 @@ h3 a:hover{
 		padding-left: 0px;
 	}	
 	h3 a {
-		padding-left: 0px;
-		padding-right: 50px;
+		padding-right: 100px;
 	}
 	.h3{
 	padding-left: 0px;
-	}
-	.ab h3{
-	padding-left: 13px;
-	}
-	.ab h3 a{
-		padding-left: 13px;
 	}
 }
