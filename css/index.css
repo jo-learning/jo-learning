@@ -1,7 +1,10 @@
 body{
 	margin: 0px;
 	padding: 0px;
-	background-color: #555;
+	background-color: white;
+}
+.welcome{
+  font-size: 30px;
 }
 .footer{
 	width: 100%;
@@ -18,7 +21,7 @@ body{
 }
 ul {
 	list-style-type: none;
-	background-color: #333;
+	background-color: white;
 	padding: 0px;
 	margin: 0px;
 	overflow: hidden;
@@ -30,19 +33,24 @@ ul {
 }
 li{
 	float: right;
+
 	
 }
 li a {
 	display: block;
+  border-radius: 20px;
 	text-decoration: none;
-	color: white;
+	color: blue;
+  font-family: inherit;
 	padding: 16px;
 }
 li a:hover{
-	background-color: #111;
+	background-color: grey;
 }
 .active{
-	background-color: #111;
+  border-right: 2px solid blue;
+  border-left: 2px solid blue;
+	border-bottom: 2px solid blue;
 }
 @-webkit-keyframes fadeInUp {
   from {
