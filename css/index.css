@@ -27,14 +27,11 @@ ul {
 	overflow: hidden;
 
 }
-.learn{
-	
+.learn{	
 	float: left;
 }
 li{
 	float: right;
-
-	
 }
 li a {
 	display: block;
