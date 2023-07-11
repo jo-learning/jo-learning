@@ -29,9 +29,7 @@ h3{
 	height: 300px;
 	margin-bottom: 30px;
 }
-.navbar{
-	margin-top: 0px;
-}
+
 .pro .body .trans{
 	position: absolute;
 	transition: 0.6s; 
