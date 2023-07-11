@@ -1,4 +1,4 @@
-.body{
+.bodyProjects{
 	/*border: solid 1px black;*/
 	border-radius: 20px; 
 	width: 400px;
@@ -24,20 +24,20 @@ h3{
 	margin-left: 40px;
 	color: white;
 }
-.img{
+.imgProjects{
 	width: 400px; 
 	height: 300px;
 	margin-bottom: 30px;
 }
 
-.pro .body .trans{
+.pro .bodyProjects .trans{
 	position: absolute;
 	transition: 0.6s; 
 	bottom: -450px;
 	-webkit-transition: 0.6s;
 	-o-transition: 0.6s;
 }
-.pro .body:hover .trans{
+.pro .bodyProjects:hover .trans{
 	bottom: 0px;
 	
 }
@@ -46,18 +46,18 @@ h3{
 	position: absolute; 
 	z-index: -1;
 }
-.pro .body .trans1{
+.pro .bodyProjects .trans1{
 	position: absolute;
 	transition: 0.6s; 
 	bottom: -450px;
 	-webkit-transition: 0.6s;
 	-o-transition: 0.6s;
 }
-.pro .body:hover .trans1{
+.pro .bodyProjects:hover .trans1{
 	bottom: 0px;
 	
 }
-.pro .body:hover{
+.pro .bodyProjects:hover{
 	opacity: 1;
 }
 /*.bodys{
@@ -85,20 +85,17 @@ h3{
 	color: white;
 }
 @media screen and (max-width: 500px){
-	.body{
+	.bodyProjects{
 		width: 100%;
 		margin-left: 0px;
 	}
 	.pro{
 		display: block;
 	}
-	.img{
+	.imgProjects{
 		width: 100%;
 	}
-	.navbar{
-		margin-top: -120px;
-	}
-	.pro .body .trans, .pro .body .trans1{
+	.pro .bodyProjects .trans, .pro .bodyProjects .trans1{
 		bottom: 0px;
 	}
 	.works{
