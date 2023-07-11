@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 body{
 	margin: 0px;
 	padding: 0px;
@@ -42,13 +45,11 @@ li a {
 	padding: 16px;
 }
 li a:hover{
-	background-color: grey;
-}
-.active{
-  border-right: 2px solid blue;
-  border-left: 2px solid blue;
+	border-right: 2px solid blue;
+  	border-left: 2px solid blue;
 	border-bottom: 2px solid blue;
 }
+
 @-webkit-keyframes fadeInUp {
   from {
     opacity: 0;
