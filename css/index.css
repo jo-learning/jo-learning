@@ -15,7 +15,6 @@ body{
 	position: fixed;
 	width: 100%;
  	z-index: 1;
-	margin-top: -120px;
 }
 .vision{
   display: none;
@@ -24,7 +23,7 @@ ul {
 	list-style-type: none;
 	background-color: white;
 	padding: 0px;
-	margin: 0px;
+	margin-top: -120px;
 	overflow: hidden;
 
 }
