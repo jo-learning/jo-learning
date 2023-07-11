@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="./css/index.css">
 	<link rel="stylesheet" type="text/css" href="./css/home.css">
+	<link rel="stylesheet" type="text/css" href="./css/Projects.css">
+	<link rel="stylesheet" type="text/css" href="./css/Notes.css">
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8094664328384542" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -13,15 +15,15 @@
 		<ul>
 			<li class="vision"><a onclick="Menu()">Menu</a></li>
 			<li class="learn"><a href="./index.html">E-Learning</a></li>
-			<li class="bar bar1"><a href="./Projects.html">Projects</a></li>
-			<li class="bar bar1"><a href="./Notes.html">Notes</a></li>
-			<li class="bar bar1"><a href="./About.html">About</a></li>
-			<li class="bar bar1"><a href="./index.html" class="active">Home</a></li>
+			<li class="bar bar1"><a href="#Projects">Projects</a></li>
+			<li class="bar bar1"><a href="#Notes">Notes</a></li>
+			<li class="bar bar1"><a href="#About">About</a></li>
+			<li class="bar bar1"><a href="#Home" class="active">Home</a></li>
 
 		</ul>
 		
 	</div>
-	<div class=" fadeInUp animated welcome">
+	<div class=" fadeInUp animated welcome" id="Home">
 		<h1 style="text-align: center; color: blue; margin-top: 120px;">Welcome to my website</h1>		
 	</div>
 	<div class=" fadeInUp animated" >
@@ -35,6 +37,110 @@
 		<h3 class="h3"><a href="">about Deeplearning</a></h3>
 		<h3 class="h3"><a href="./Notes/Cyber.html">Cyber Fundamentals</a></h3>
 	</div> 
+
+		<div class="pro" id="Notes">
+		<div class="body fadeInUp animated">
+			<h1 class="text">Cyber Fundamentals</h1>
+			<img src="./img/cyberfundamental.jpeg" class="img">
+			<button class="button"><a href="./Notes/Cyber.html">Detail</a></button>
+			
+		</div>
+		<div class="body fadeInUp animated">
+			<h1 class="text">CyberSecurity 101</h1>
+			<img src="./img/cybersecurity.jpeg" class="img">
+			<button class="button"><a href="./Notes/CyberSecurity.html">Detail</a></button>
+		</div>
+	</div>
+	<div class="pro">
+		<div class="body fadeInUp animated">
+			<h1 class="text">Arteficial intelligence</h1>
+			<img src="./img/machinelearning1.PNG" class="img">
+			<button class="button"><a href="./Notes/AI.html">Detail</a></button>
+		</div>
+		<div class="body fadeInUp animated">
+			<h1 class="text">Machine Learning</h1>
+			<img src="./img/machinelearning1.PNG" class="img">
+			<button class="button"><a href="./Notes/ML.html">Detail</a></button>
+		</div>
+	</div>
+
+
+	<h3 class="works" id="Projects">Projects you have to work on</h3>
+	<div class="pro">
+		<div class="body fadeInUp animated">
+			<div class="trans">
+				<img src="./img/frontend.jpg" class="img">
+				<h1 class="text">Front-End Web Development</h1>
+					<h3 class="projects">Projects</h3>
+					<h3>* school management system</h3>
+					<h3>* hospital management system</h3>
+					<h3>* hotel managment system</h3>
+					<h3 class="projects">Programming language</h3>
+					<h3>* html, css, javascript</h3>
+					<h3 class="projects">frameworks</h3>
+					<h3>* vuejs, reactjs</h3>
+				<h3 class="red">currently we are working on this project no github link</h3>
+			</div>	
+		</div>
+		<div class="body fadeInUp animated">
+			<div class="trans1" id="backend">
+				<img src="./img/backend.jpg" class="img">
+				<h1 class="text">Back-End Web Development</h1>
+					<h3 class="projects">Projects</h3>
+					<h3>* school management system</h3>
+					<h3>* hospital management system</h3>
+					<h3>* hotel managment system</h3>
+					<h3 class="projects">Programming language</h3>
+					<h3>* javascript, php</h3>
+					<h3 class="projects">frameworks</h3>
+					<h3>* express, laravel</h3>
+				<h3 class="red">currently we are working on this project no github link</h3>
+			</div>	
+		</div>
+		
+	</div>
+	<div class="pro">
+		<div class="body fadeInUp animated">
+			<div class="trans">
+				<img src="./img/AI.jpeg" class="img">
+				<h1 class="text">Deep Learning</h1>
+					<h3 class="projects">Projects</h3>
+					<h3>* Speech Recognition</h3>
+					<h3>* Handwriting Recognition</h3>
+					<h3 class="projects">Programming language</h3>
+					<h3>* javascript, python</h3>
+					<h3 class="projects">frameworks</h3>
+					<h3>* tensorflow, pytorch</h3>
+				<h3 class="red">currently we are working on this project no github link</h3>
+			</div>	
+		</div>
+		<div class="body fadeInUp animated">
+			<div class="trans1">
+				<img src="./img/security.jpeg" class="img">
+				<h1 class="text">CyberSecurity</h1>
+					<h3 class="projects">Projects</h3>
+					<h3>* Cryptography (building AES from scrach)</h3>
+					<h3>* Cryptography (building RSA from scrach)</h3>
+					<h3>* Hash Function (building MD5 from scrach)</h3>
+					<h3 class="projects">Programming language</h3>
+					<h3>* javascript, python</h3>
+					<h3 class="projects">frameworks</h3>
+					<h3></h3>
+				<h3 class="red">currently we are working on this project no github link</h3>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="body fadeInUp animated" id="About">
+		<h1 style="text-align: center; color: white;">Our Mission</h1>		
+	</div>
+	<div class="body fadeInUp animated" style="margin-top: -10px;">
+		<h3 style="text-align: center; color: white;">We believe in sharing your knowledge to any one who wants to learn new things.our mission has been to help other peoples know new technology. If you are a person that wants to learn new things this is the site for you. think you for visiting. <br><br><br> contact <br><br> email  -  yohannesguesh01@gmail.com </h3> 
+		
+	</div>
+	
 	<div class="footer">
 		<p style="text-align: center;">yohannes guesh 2023 GC</p>
 	</div>
