@@ -1,10 +1,10 @@
 html{
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body{
-	margin: 0px;
-	padding: 0px;
-	background-color: white;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
 }
 .welcome{
   font-size: 30px;
@@ -12,45 +12,53 @@ body{
 }
 
 .footer{
-	width: 100%;
-	background-color: black;
-	color: white;
+  width: 100%;
+  background-color: black;
+  color: white;
 }
 .navbar{
-	position: fixed;
-	width: 100%;
- 	z-index: 1;
-	margin:0px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  margin:0px;
 }
 .vision{
   display: none;
 }
-ul {
-	list-style-type: none;
-	background-color: white;
-	padding: 0px;
-	margin-top: 0px;
-	overflow: hidden;
+.unlist {
+  list-style-type: none;
+  background-color: black;
+  padding: 0px;
+  margin-top: 0px;
+  overflow: hidden;
 
 }
-.learn{	
-	float: left;
+.learn{ 
+  float: left;
 }
-li{
-	float: right;
+.list{
+  float: right;
 }
 li a {
-	display: block;
+  display: block;
   border-radius: 20px;
-	text-decoration: none;
-	color: blue;
+  text-decoration: none;
+  color: lightgrey;
   font-family: inherit;
-	padding: 16px;
+  padding: 16px;
 }
 li a:hover{
-	border-right: 2px solid blue;
-  	border-left: 2px solid blue;
-	border-bottom: 2px solid blue;
+  border-right: 2px solid blue;
+    border-left: 2px solid blue;
+  border-bottom: 2px solid blue;
+}
+.footer{
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  /*margin-top: 100px;*/
 }
 
 @-webkit-keyframes fadeInUp {
