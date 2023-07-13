@@ -1,11 +1,12 @@
 div .primary{
         padding-top: 55px;
-        margin-left: 100px;
+        margin-left: 50px;
         margin-right: 100px;
     }
-    .card{
-        margin-left: 200px;
-        margin-right: 200px;
+    .body{
+        background-color: lightgrey;
+        margin-left: 0px;
+        margin-right: 330px;
     }
     h1{
         text-align: center;
@@ -18,7 +19,13 @@ div .primary{
         margin-left:200px;
     }
     p{
-        color: white;
+        color: black;
+    }
+    h2{
+        font-size: 35px;
+    }
+    h3, h4, h5{
+        font-size: 30px;
     }
     /*.navbar{
         margin-top: -5px;
@@ -35,13 +42,17 @@ div .primary{
         .words{
             display: block;
         }
+        .body{
+        background-color: lightgrey;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
         }
         .otherwords{
             margin-left:0px;
         }
         p{
-            color: white;
-            font-size: 15px;
+            color: black;
         }
         h2{
             font-size: 30px;
