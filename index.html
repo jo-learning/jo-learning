@@ -12,25 +12,25 @@
 </head>
 <body>
 	<div class="navbar">
-		<ul>
-			<li class="vision"><a onclick="Menu()">Menu</a></li>
-			<li class="learn"><a href="./index.html">E-Learning</a></li>
-			<li class="bar bar1"><a href="#Projects">Projects</a></li>
-			<li class="bar bar1"><a href="#Notes">Notes</a></li>
-			<li class="bar bar1"><a href="#About">About</a></li>
-			<li class="bar bar1"><a href="#Home">Home</a></li>
+		<ul class="unlist">
+			<li class="vision list"><a onclick="Menu()">Menu</a></li>
+			<li class="learn" ><a href="./index.html">E-Learning</a></li>
+			<li class="bar bar1 list" ><a href="#Projects">Projects</a></li>
+			<li class="bar bar1 list" ><a href="#Notes">Notes</a></li>
+			<li class="bar bar1 list" ><a href="#About">About</a></li>
+			<li class="bar bar1 list" ><a href="#Home">Home</a></li>
 
 		</ul>
 		
 	</div>
 
-	<div id="Home" style="background-color: grey; padding-top:120px">
+	<div id="Home" class="Home">
 		<div class=" fadeInUp animated welcome">
-			<h1 style="text-align: center; color: blue;">Welcome to my website</h1>		
+			<h1 style="text-align: center; color: lightgrey;">Welcome to my website</h1>		
 		</div>
 		<div class=" fadeInUp animated" >
 <!-- 			<h3 style="text-align: center; color: blue;">In this website we will teach you and show you same examples of the following topics.</h3> -->
-			<h3 style="text-align: center; color: blue;">Hello! I am a motivated and enthusiasitc software engineer looking to kickstart my career in the field of software development. with a strong foundation in programming and a passion for problem-solving, I am eager to contribute my skills to create innovative and efficient software solutions. Below, you will find a selection of my projects that demonstrate my technical abilities and dedication to continuous learning in software engineering. </h3>
+			<h3 class="myprofile" style="text-align: center; color: lightgrey;">Hello! my name is yohannes guesh. I was a former lecturer in IQ business group (Location: Mekelle). I was teaching CyberSecurity, networking, and Pentesting. but now I am a motivated and enthusiasitc software engineer looking to kickstart my career in the field of software development. with a strong foundation in programming and a passion for problem-solving, I am eager to contribute my skills to create innovative and efficient software solutions. Below, you will find a selection of my projects that demonstrate my technical abilities and dedication to continuous learning in software engineering. </h3>
 <!-- 			<div style="position: relative;">
 				<h3 class="h3"><a class="drop" onclick="dropdowns()">website application</a> </h3>
 				<div style="position: absolute; display: none;"><h3 style="padding-left: 150px;"><a href="" class="dropdown" style="padding-left: 140px;">website application</a></h3></div>
@@ -39,21 +39,48 @@
 			<h3 class="h3"><a href="./Notes/AI.html">about AI</a></h3>
 			<h3 class="h3"><a href="">about Deeplearning</a></h3>
 			<h3 class="h3"><a href="./Notes/Cyber.html">Cyber Fundamentals</a></h3> -->
+
 		</div> 
 	</div>
 
-		<div class="pro" id="Notes">
+
+		<div id="Notes" style=" margin-top: 20px;">
+			<h1 style="margin-left: 100px;">Lecture Notes</h1>
+		<div class="pro">
 		<div class="bodyNotes fadeInUp animated">
 			<h1 class="text">Cyber Fundamentals</h1>
 			<img src="./img/cyberfundamental.jpeg" class="imgNotes">
-			<button class="button"><a href="./Notes/Cyber.html">Detail</a></button>
-			
+			<button class="button"><a href="./Notes/Cyber.html">Detail</a></button>	
 		</div>
+		<div class="addinfo fadeInUp animated">
+			<h1>Cyber Fundamentals</h1>
+			<ul class="info">
+				<li><p>Cyber fundamentals refers to the basic principles and concepts of cybersecurity.</p></li>
+				<li><p>It encompasses the fundamental knowledge and skills required to understand and protect against cyber threats and attacks</p></li>
+				<li><p>This includes understanding the various types of cyber threats, such as malware, phishing, and hacking, as well as the basic techniques and strategies used to prevent and mitigate these threats.</p></li>
+				<li><p>Cyber fundamentals also involve learning about the importance of secure practices such as strong passwords, regular software updates, and data encryption.</p></li>
+				<li><p>Overall, cyber fundamentals provide a foundation for individual to develop a strong undestanding of cybersecurity and protect themselves and their organizations from cyber threats.</p></li>
+			</ul>
+		</div>
+		</div>
+		<div class="pro" style="background-color: lightgrey;">
 		<div class="bodyNotes fadeInUp animated">
 			<h1 class="text">CyberSecurity 101</h1>
 			<img src="./img/cybersecurity.jpeg" class="imgNotes">
 			<button class="button"><a href="./Notes/CyberSecurity.html">Detail</a></button>
 		</div>
+		<div class="addinfo fadeInUp animated">
+			<h1>CyberSecurity</h1>
+			<ul class="info">
+				<li><p>Cybersecurity refers to the practice of protecting computer systems, networks, and dtat from unauthorized access, damage, or theft.</p></li>
+				<li><p>It involves implementing measures and technologies to prevent, detect, and respond to cyber threats and attacks.</p></li>
+				<li><p>Cybersecurity aims to safeguard information and ensure the confidentiality, integrity, and availability of digital assets.</p></li>
+				<li><p>It encompasses various aspects such as network security, application security, data protection, and incident response.</p></li>
+				
+				
+			</ul>
+		</div>
+	</div>
 	</div>
 	<div class="pro">
 		<div class="bodyNotes fadeInUp animated">
@@ -61,29 +88,39 @@
 			<img src="./img/machinelearning1.PNG" class="imgNotes">
 			<button class="button"><a href="./Notes/AI.html">Detail</a></button>
 		</div>
+		<div class="addinfo fadeInUp animated">
+			<h1>Arteficial intelligence</h1>
+		</div>
+	</div>
+	<div class="pro" style="background-color: lightgrey;">
 		<div class="bodyNotes fadeInUp animated">
 			<h1 class="text">Machine Learning</h1>
 			<img src="./img/machinelearning1.PNG" class="imgNotes">
 			<button class="button"><a href="./Notes/ML.html">Detail</a></button>
 		</div>
+		<div class="addinfo fadeInUp animated">
+			<h1>Machine Learning</h1>
+		</div>
+	</div>
 	</div>
 
 
-	<h3 class="works" id="Projects">Projects you have to work on</h3>
+	<div id="Projects" style="padding-bottom: 40px;">
+	<h3 class="works">Projects you have to work on</h3>
 	<div class="pro">
 		<div class="bodyProjects fadeInUp animated">
 			<div class="trans">
 				<img src="./img/frontend.jpg" class="imgProjects">
 				<h1 class="text">Front-End Web Development</h1>
 					<h3 class="projects">Projects</h3>
-					<h3>* school management system</h3>
-					<h3>* hospital management system</h3>
-					<h3>* hotel managment system</h3>
+					<h3>* school management system <button class="yes">github</button><button class="yes">detail info</button></h3>
+					
+					<h3>* hospital management system <button class="no" onclick="fail()">github</button><button class="yes">detail info</button></h3>
+					<h3>* hotel managment system <button class="no" onclick="fail()">github</button><button class="yes">detail info</button></h3>
 					<h3 class="projects">Programming language</h3>
 					<h3>* html, css, javascript</h3>
 					<h3 class="projects">frameworks</h3>
-					<h3>* vuejs, reactjs</h3>
-				<h3 class="red">currently we are working on this project no github link</h3>
+					<h3>* vuejs, reactjs</h3><br><br><br>
 			</div>	
 		</div>
 		<div class="bodyProjects fadeInUp animated">
@@ -91,14 +128,14 @@
 				<img src="./img/backend.jpg" class="imgProjects">
 				<h1 class="text">Back-End Web Development</h1>
 					<h3 class="projects">Projects</h3>
-					<h3>* school management system</h3>
-					<h3>* hospital management system</h3>
-					<h3>* hotel managment system</h3>
+					<h3>* school management system <button class="yes"><a href="./index.html#Home">github</a></button><button class="yes">detail info</button></h3>
+					
+					<h3>* hospital management system <button class="no" onclick="fail()">github</button><button class="yes">detail info</button></h3>
+					<h3>* hotel managment system <button class="no" onclick="fail()">github</button><button class="yes">detail info</button></h3>
 					<h3 class="projects">Programming language</h3>
 					<h3>* javascript, php</h3>
 					<h3 class="projects">frameworks</h3>
-					<h3>* express, laravel</h3>
-				<h3 class="red">currently we are working on this project no github link</h3>
+					<h3>* express, laravel</h3><br><br><br>
 			</div>	
 		</div>
 		
@@ -109,13 +146,12 @@
 				<img src="./img/AI.jpeg" class="imgProjects">
 				<h1 class="text">Deep Learning</h1>
 					<h3 class="projects">Projects</h3>
-					<h3>* Speech Recognition</h3>
-					<h3>* Handwriting Recognition</h3>
+					<h3>* Speech Recognition <button class="no" onclick="fail()">github</button><button class="yes">detail info</button></h3>
+					<h3>* Handwriting Recognition <button class="no" onclick="fail()">github</button><button class="yes">detail info</button></h3>
 					<h3 class="projects">Programming language</h3>
 					<h3>* javascript, python</h3>
 					<h3 class="projects">frameworks</h3>
-					<h3>* tensorflow, pytorch</h3>
-				<h3 class="red">currently we are working on this project no github link</h3>
+					<h3>* tensorflow, pytorch</h3><br><br><br><br><br>
 			</div>	
 		</div>
 		<div class="bodyProjects fadeInUp animated">
@@ -123,31 +159,50 @@
 				<img src="./img/security.jpeg" class="imgProjects">
 				<h1 class="text">CyberSecurity</h1>
 					<h3 class="projects">Projects</h3>
-					<h3>* Cryptography (building AES from scrach)</h3>
-					<h3>* Cryptography (building RSA from scrach)</h3>
-					<h3>* Hash Function (building MD5 from scrach)</h3>
+					<h3>* Cryptography (building AES from scrach) <button class="no" onclick="fail()">github</button><button class="yes">detail info</button></h3>
+					<h3>* Cryptography (building RSA from scrach) <button class="no" onclick="fail()">github</button><button class="yes">detail info</button></h3>
+					<h3>* Hash Function (building MD5 from scrach) <button class="no" onclick="fail()">github</button><button class="yes">detail info</button></h3>
 					<h3 class="projects">Programming language</h3>
 					<h3>* javascript, python</h3>
 					<h3 class="projects">frameworks</h3>
-					<h3></h3>
-				<h3 class="red">currently we are working on this project no github link</h3>
+					<h3></h3><br>
 			</div>
 		</div>
 	</div>
-
-
-
-	<div class="fadeInUp animated welcome" id="About">
-		<h1 style="text-align: center; color: blue;">Our Mission</h1>		
+	<div class="pro">
+		<div class="bodyProjects fadeInUp animated">
+			<div class="trans">
+				<img src="./img/frontend.jpg" class="imgProjects">
+				<h1 class="text">Mobile app Development</h1>
+					<h3 class="projects">Projects</h3>
+					<h3>* Dictionary app <button class="yes">github</button><button class="yes">detail info</button></h3>
+					
+					<h3>* Telegram Clone <button class="yes">github</button><button class="yes">detail info</button></h3>
+					</h3>
+					<h3 class="projects">Programming language</h3>
+					<h3>* Dart</h3>
+					<h3 class="projects">frameworks</h3>
+					<h3>* Flutter</h3><br><br><br><br><br>
+			</div>	
+		</div>
 	</div>
-	<div class="fadeInUp animated" style="margin-top: -10px;">
-		<h3 style="text-align: center; color: blue;">We believe in sharing your knowledge to any one who wants to learn new things.our mission has been to help other peoples know new technology. If you are a person that wants to learn new things this is the site for you. think you for visiting. <br><br><br> contact <br><br> email  -  yohannesguesh01@gmail.com </h3> 
-		
+	</div>
+
+
+	<div id="About" class="Home">
+		<div class="fadeInUp animated welcome">
+			<h1 style="text-align: center; color: blue;">My Mission</h1>		
+		</div>
+		<div class="fadeInUp animated" style="margin-top: -10px;">
+			<h3 style="text-align: center; color: white;">I believe in sharing your knowledge to any one who wants to learn new things. My mission has been to help other peoples know new technology. If you are a person that wants to learn new things this is the site for you. think you for visiting. <br><br><br> contact <br><br> email  -  yohannesguesh01@gmail.com </h3> 
+			
+		</div>
+		<div class="footer">
+			<p style="text-align: center;">yohannes guesh 2023 GC</p>
+		</div>
 	</div>
 	
-	<div class="footer">
-		<p style="text-align: center;">yohannes guesh 2023 GC</p>
-	</div>
+	
 	<script type="text/javascript" src="./js/index.js"></script>
 </body>
 </html>
