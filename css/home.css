@@ -18,7 +18,7 @@ h3{
 	padding-top: 10px;
 }
 
-h3 a {
+/*h3 a {
 	text-decoration: none;
 	color: white;
 	padding-right: 200px;
@@ -29,26 +29,61 @@ h3 a {
 }
 h3 a:hover{
 	background-color: #111;
-}
+}*/
 /* .navbar{
 	margin-top: -120px;
 } */
-.footer{
-	width: 100%;
-	background-color: black;
-	color: white;
+.addinfo{
+	margin-top:120px; 
+	margin-left: 30px;
+}
+.myprofile{
+	margin-left: 300px; 
+	margin-right: 300px;
+}
+.Home{
+	padding-top:250px; 
+	padding-bottom: 200px; 
+	background-image: url('../img/Home.jpg'); 
+	background-repeat: no-repeat; 
+	background-size: 1400px 700px;
+}
+.info{
+	margin-right: 150px;
+}
+.yes{
+	border: 2px solid green;
+	border-radius: 1px;
+}
+.no{
+	border: 2px solid red;
+	border-radius: 1px;
 }
 @media screen and (max-width: 500px){
 	.body{
 		margin-left: 10px;
 		width: 100%
 	}
+	.myprofile{
+	margin-left: 0px; 
+	margin-right: 0px;
+	}
+	.Home{
+	padding-top:50px; 
+	padding-bottom: 200px; 
+	background-image: url('../img/Home.jpg'); 
+	background-repeat: no-repeat; 
+	background-size: 1400px 700px;
+	}
+	.info{
+	margin-right: 0px;
+	}
 	.body h3{
 		padding-left: 0px;
 	}	
-	h3 a {
+	/*h3 a {
 		padding-right: 100px;
-	}
+	}*/
 	.h3{
 	padding-left: 0px;
 	}
