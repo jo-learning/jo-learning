@@ -28,3 +28,6 @@ function dropdowns(){
 	}
 	}
 }
+function fail(){
+	alert('For now no github repo but soon');
+}
